@@ -1,0 +1,26 @@
+# Special built-in mail store.
+
+[Data Source]
+DisplayName=Search Folders
+DisplayName[be]=Папкі пошуку
+DisplayName[bg]=Папки за търсене
+DisplayName[ca@valencia]=Carpetes de cerca
+DisplayName[de]=Suchordner
+DisplayName[fi]=Hakukansiot
+DisplayName[it]=Cerca cartelle
+DisplayName[ko]=검색 폴더
+DisplayName[nb]=Søkemapper
+DisplayName[sr]=Фасцикле претраге
+DisplayName[ta]=கோப்புறைகளில் தேடு
+DisplayName[te]=సంచయాలు అన్వేషించు
+Enabled=true
+Parent=
+
+[Mail Account]
+BackendName=vfolder
+IdentityUid=self
+ArchiveFolder=
+NeedsInitialSetup=false
+
+[Vfolder Backend]
+FilterInbox=true

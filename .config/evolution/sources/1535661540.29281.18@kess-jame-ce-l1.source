@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=jamesakessler@gmail.com
+Enabled=true
+Parent=1535661540.29281.6@kess-jame-ce-l1
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp.googlemail.com
+Method=Google
+Port=465
+ProxyUid=system-proxy
+RememberPassword=true
+User=jamesakessler@gmail.com
+CredentialName=
+
+[Security]
+Method=ssl-on-alternate-port

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=startup
+GenericName=startup_script
+Comment=set initial preferences on statup
+xec=/home/kessler/my_scripts/startup.sh
+Terminal=false
+Type=Application

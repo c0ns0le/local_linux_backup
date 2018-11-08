@@ -1,0 +1,5 @@
+2018/06/21-02:29:30.377 8883 Reusing MANIFEST /home/kessler/.config/google-chrome/Default/IndexedDB/https_www.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/06/21-02:29:30.377 8883 Recovering log #3
+2018/06/21-02:29:30.383 8883 Level-0 table #3: started
+2018/06/21-02:29:30.402 8883 Level-0 table #3: 1233632 bytes OK
+2018/06/21-02:29:30.407 8883 Delete type=0 #3

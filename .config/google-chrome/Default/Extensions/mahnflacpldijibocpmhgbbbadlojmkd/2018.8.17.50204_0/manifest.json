@@ -1,0 +1,43 @@
+{
+   "app": {
+      "icon_color": "#4852CE",
+      "launch": {
+         "web_url": "https://www.pandora.com/station/play/330699768928680195"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "https://www.pandora.com/favicon.ico"
+      }, {
+         "size": 32,
+         "url": "https://www.pandora.com/favicon.ico"
+      }, {
+         "size": 48,
+         "url": "https://www.pandora.com/favicon.ico"
+      }, {
+         "size": 64,
+         "url": "https://www.pandora.com/favicon.ico"
+      }, {
+         "size": 96,
+         "url": "https://www.pandora.com/favicon.ico"
+      }, {
+         "size": 128,
+         "url": "https://www.pandora.com/favicon.ico"
+      }, {
+         "size": 256,
+         "url": "https://www.pandora.com/favicon.ico"
+      } ]
+   },
+   "description": "The Velvet Underground Radio - Now Playing on Pandora",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "YRhrfuRmDYv2J70flPmCa0evLTycbuEsy96ODwGAGLo=",
+   "name": "Pandora",
+   "version": "2018.8.17.50204"
+}

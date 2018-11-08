@@ -1,0 +1,33 @@
+{
+   "background": {
+      "page": "lib/chrome/background.html"
+   },
+   "browser_action": {
+      "default_icon": "data/icons/32.png",
+      "default_title": "App for Spotify™"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "data/panel/index.css" ],
+      "js": [ "data/panel/index.js" ],
+      "matches": [ "*://*.open.spotify.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "An easy-to-use and lite App for Spotify Music Player",
+   "homepage_url": "http://mybrowseraddon.com/spotify-web.html",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgUQsgu2DdhXsdQAUhKJNz/QMRnUhNMaMAzD+Zr1HrRJ22SG4lbE5xQanuNPB+SUivRMeF9jUJ8W5GkFLhqGtXBng4jyRIP+9exG0pKrYQucVIMR7RdPEHernAHzHZD5xU0/F3PzvhbFELHq2uesXYhmWQbv3Iyq2C/E7tMRopPac2M6HzDgEsjumhhVgUEYxJgMHDyVO2QcVZAl/mKCQbddV3/Cg+1PKVbSOzOjtcA9hyHQ/EYtZOCr8OjtHg7H7Dq6FdspABzNB28fl21wu/NorqyZpZrevC8Jx3k2/y7y2kYQCzAHE4rGuq12duSSl1VKWuOU5wb/nJJym51QiRwIDAQAB",
+   "manifest_version": 2,
+   "name": "App for Spotify™",
+   "permissions": [ "storage", "https://*.spotify.com/*" ],
+   "short_name": "appforspotify",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.2",
+   "web_accessible_resources": [ "data/icons/*" ]
+}

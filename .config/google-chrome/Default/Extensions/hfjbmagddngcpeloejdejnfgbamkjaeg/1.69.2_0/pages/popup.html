@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html spellcheck="false" style="height: 200px;">
+  <head>
+    <meta charset="utf-8">
+    <title>Vimium C Popup</title>
+    <link rel="stylesheet" href="options.css">
+    <script defer src="options_base.js"></script>
+    <style>
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 495px;
+}
+
+p {
+	margin-top: 5px;
+}
+
+#helpText, #state {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#state {
+	background: #f3f3f3;
+	border-bottom: 0.5px solid #979ca0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 3px 5px 2.5px 32px;
+	text-indent: -27px;
+	width: 100%;
+}
+
+.state-value {
+	color: #15c;
+	line-height: 15px;
+}
+.action {
+  color: #15c;
+}
+.fixed-width {
+	display: inline-block;
+	min-width: 54px;
+	text-align: right;
+}
+
+/* These are overridden from options.css. */
+
+#footer {
+	box-sizing: border-box;
+	height: 34px;
+	padding: 5px 8px 2px 3px;
+	text-align: right;
+	width: 100%;
+}
+#helpText {
+	margin-top: -2px;
+	text-align: left;
+}
+
+
+/* Make exclusionRules smaller than on the options page, because there are likely to be fewer
+	 matching rules, and the popup obscures the underlying page.
+ */
+#exclusionRules {
+	height: 141px;
+	margin-bottom: 37px;
+	margin-top: 0;
+}
+    </style>
+  </head>
+  <body>
+    <div id="state"></div>
+
+    <div id="exclusionRules">
+      <!-- Populated from exclusions.html by options_base.js. -->
+    </div>
+
+    <div id="footer">
+      <span id="helpText">
+        <a id="toggleOnce" href="vimium://status toggle" class="decorate-none" tabindex="1">Disable for once</a><span class="hidden">
+          / <a id="resetStatus" href="vimium://status reset" class="decorate-none" tabindex="1">Reset status</a></span>.
+        <a class="options-link" href="options.html" target="_blank" tabindex="1">Options</a>.
+        Version <span class="version"></span>.
+        <br/>
+        <span id="helpSpan">In the table are the rules matching this page.</span>
+        <span style="display: none;">Type <strong><kbd>&lt;c-enter&gt;</kbd></strong> to save and close.</span>
+      </span>
+      <button id="exclusionAddButton">Add Rule</button>
+      <button id="saveOptions" disabled="disabled">No Changes</button>
+    </div>
+    <div id="blocked-msg" style="width: 400px; margin: 5px; display: none;">
+      <h4>
+        Maybe <span class="Vim">Vim</span>ium <span class="C">C</span> is <span class="state-value">not running</span> on this page.
+      </h4>
+      <p>
+        Your browser does not run web extensions like Vimium / Vimium C on certain pages,
+        usually for security reasons.
+      </p>
+      <p>
+        Unless your browser's developers change their policy,
+        then unfortunately it is not possible to make Vimium / Vimium C<br/>
+          (or any other web extension, for that matter) work on this page.
+      </p>
+      <p id="refresh-after-install">
+        If <span class="Vim">Vim</span>ium <span class="C">C</span> is newly installed,
+        please <span class="action">refresh</span> to get it work.
+      </p>
+      <p>
+        Configure more on the <a class="options-link" href="options.html" target="_blank">options</a> page.
+        Version <span class="version"></span>.
+      </p>
+    </div>
+  </body>
+</html>

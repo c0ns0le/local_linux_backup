@@ -1,0 +1,24 @@
+[directory]
+nautilus-icon-view-keep-aligned=true
+nautilus-desktop-icon-size=96
+nautilus-icon-view-layout-timestamp=1541691146
+
+[trash]
+nautilus-icon-position-timestamp=1541691146
+nautilus-icon-position=56,226
+icon-scale=1
+
+[home]
+nautilus-icon-position-timestamp=1541691146
+nautilus-icon-position=56,26
+icon-scale=1
+
+[kessler on 10.0.20.120.volume]
+nautilus-icon-position=56,146
+icon-scale=1
+nautilus-icon-position-timestamp=1530819403
+
+[network]
+nautilus-icon-position=56,326
+icon-scale=1
+nautilus-icon-position-timestamp=1539613818

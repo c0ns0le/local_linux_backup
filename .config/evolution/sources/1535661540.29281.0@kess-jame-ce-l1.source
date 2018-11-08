@@ -1,0 +1,24 @@
+[Data Source]
+DisplayName=jamesakessler@gmail.com
+Enabled=true
+Parent=1535661540.29281.6@kess-jame-ce-l1
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+
+[Mail Identity]
+Address=jamesakessler@gmail.com
+Name=James Kessler
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=1535661540.29281.18@kess-jame-ce-l1
+RepliesToOriginFolder=false

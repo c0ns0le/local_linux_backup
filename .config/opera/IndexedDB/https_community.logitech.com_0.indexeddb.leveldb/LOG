@@ -1,0 +1,15 @@
+2018/08/02-15:11:34.430 29949 Reusing MANIFEST /home/kessler/.config/opera/IndexedDB/https_community.logitech.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/08/02-15:11:34.430 29949 Recovering log #6
+2018/08/02-15:11:34.435 29949 Reusing old log /home/kessler/.config/opera/IndexedDB/https_community.logitech.com_0.indexeddb.leveldb/000006.log 
+2018/08/02-15:12:23.801 7373 Level-0 table #10: started
+2018/08/02-15:12:23.821 7373 Level-0 table #10: 2264364 bytes OK
+2018/08/02-15:12:23.827 7373 Delete type=0 #6
+2018/08/02-15:12:25.397 7373 Compacting 1@1 + 1@2 files
+2018/08/02-15:12:25.419 7373 Generated table #11@1: 1817 keys, 1526601 bytes
+2018/08/02-15:12:25.419 7373 Compacted 1@1 + 1@2 files => 1526601 bytes
+2018/08/02-15:12:25.421 7373 compacted to: files[ 0 0 1 0 0 0 0 ]
+2018/08/02-15:12:25.422 7373 Delete type=2 #5
+2018/08/02-15:12:25.422 7373 Delete type=2 #10
+2018/08/02-15:12:26.533 7373 Level-0 table #13: started
+2018/08/02-15:12:26.556 7373 Level-0 table #13: 1723964 bytes OK
+2018/08/02-15:12:26.560 7373 Delete type=0 #9

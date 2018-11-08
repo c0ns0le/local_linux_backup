@@ -1,0 +1,62 @@
+html, body, .container, .content {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  overflow-y: scroll !important;
+}
+
+#toolbar {
+  top: 0;
+  left: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 24px;
+  z-index: 999999999;
+  position: absolute;
+  table-layout: fixed;
+  border-spacing: 1px 0;
+  vertical-align: middle;
+  background-color: rgba(0,0,0,0.2);
+}
+
+#toolbar tr td {
+  border: 0;
+  margin: 0;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s ease all;
+  background-repeat: no-repeat;
+  -moz-transition: 0.3s ease all;
+  background-size: 16px !important;
+  -webkit-transition: 0.3s ease all;
+  background-color: rgba(0,0,0,0.5);
+  background-position: center center;
+}
+
+#toolbar tr td:hover {background-color: rgba(0,0,0,0.7)}
+
+#toolbar[show=false] {
+  opacity: 0;
+  transition: opacity 1000ms ease-in-out;
+  -moz-transition: opacity 1000ms ease-in-out;
+  -webkit-transition: opacity 1000ms ease-in-out;
+}
+
+#back {background: url("../icons/back.png") no-repeat center center}
+#reload {background: url("../icons/reload.png") no-repeat center center}
+#popout {background: url("../icons/popout.png") no-repeat center center}
+#support {background: url("../icons/support.png") no-repeat center center}
+#forward {background: url("../icons/forward.png") no-repeat center center}
+
+.ads-container {
+  display: none !important;
+  visibility: hidden !important;
+}

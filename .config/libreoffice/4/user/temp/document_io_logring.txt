@@ -1,0 +1,25 @@
+30(Build:1)
+
+Rethrow
+
+Rethrow
+/builddir/build/BUILD/libreoffice-5.3.6.1/sfx2/source/doc/sfxbasemodel.cxx:1667: storeToURL
+/builddir/build/BUILD/libreoffice-5.3.6.1/sfx2/source/doc/objstor.cxx:2650: 
+/builddir/build/BUILD/libreoffice-5.3.6.1/sfx2/source/doc/objmisc.cxx:244: Resetting Error.
+/builddir/build/BUILD/libreoffice-5.3.6.1/sfx2/source/doc/sfxbasemodel.cxx:3092: Storing failed!
+
+Rethrow
+
+Rethrow
+/builddir/build/BUILD/libreoffice-5.3.6.1/sfx2/source/doc/sfxbasemodel.cxx:1667: storeToURL
+/builddir/build/BUILD/libreoffice-5.3.6.1/sfx2/source/doc/objstor.cxx:2650: 
+/builddir/build/BUILD/libreoffice-5.3.6.1/sfx2/source/doc/objmisc.cxx:244: Resetting Error.
+/builddir/build/BUILD/libreoffice-5.3.6.1/sfx2/source/doc/sfxbasemodel.cxx:3092: Storing failed!
+
+Rethrow
+
+Rethrow
+/builddir/build/BUILD/libreoffice-5.3.6.1/sfx2/source/doc/sfxbasemodel.cxx:1667: storeToURL
+/builddir/build/BUILD/libreoffice-5.3.6.1/sfx2/source/doc/objstor.cxx:2650: 
+/builddir/build/BUILD/libreoffice-5.3.6.1/sfx2/source/doc/objmisc.cxx:244: Resetting Error.
+/builddir/build/BUILD/libreoffice-5.3.6.1/sfx2/source/doc/sfxbasemodel.cxx:3092: Storing failed!

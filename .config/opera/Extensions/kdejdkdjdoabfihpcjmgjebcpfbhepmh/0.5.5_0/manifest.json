@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "js": [ "jquery-2.0.3.min.js", "copylinkaddress.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Copy link address without right-clicking. Just hover the link and hit Ctrl-C / Cmd-C!",
+   "icons": {
+      "128": "/icons/icon128.png",
+      "48": "/icons/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnaH9YEImdj91y75gDykxShXr/6pDUYf+l3Tefvm3MYWCh1NuIVPrIQfatzQOORSRj4J1tS24WYMKgnBBwYAuhKZGOD+QlMl99rvot5ZWg7fam/xOKHgj7LnBJTqsqWUpI7ZLzp+peNEUMLP5WwP16KdTACf54oPqPvM2br+L4ewIDAQAB",
+   "manifest_version": 2,
+   "name": "Copy Link Address",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.5.5"
+}

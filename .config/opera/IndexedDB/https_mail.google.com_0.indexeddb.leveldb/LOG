@@ -1,0 +1,7 @@
+2018/11/08-14:20:41.608 27032 Reusing MANIFEST /home/kessler/.config/opera/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/11/08-14:20:41.609 27032 Recovering log #62
+2018/11/08-14:20:41.614 27032 Reusing old log /home/kessler/.config/opera/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000062.log 
+2018/11/08-14:20:57.158 27383 Compacting 1@1 + 1@2 files
+2018/11/08-14:20:57.163 27383 Generated table #65@1: 92 keys, 1860 bytes
+2018/11/08-14:20:57.164 27383 Compacted 1@1 + 1@2 files => 1860 bytes
+2018/11/08-14:20:57.166 27383 compacted to: files[ 0 0 1 0 0 0 0 ]

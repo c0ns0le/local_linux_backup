@@ -1,0 +1,29 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/contentscript.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self'; connect-src *; img-src *; frame-src *; object-src 'self'",
+   "description": "Keyboard shortcuts for navigation and control. Vim like bindings.",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "32": "img/icon32.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsv/QfL3q+gh9DhZnHPeEs298vOEFR1V2uFY8RGCEHHTeFtgzcaKbw4d4rJ1h/w104VbFJa4ZKaLpHreC2K45ycmWyVMvBFz3S8CJuNo1XQelAlsYkzpyhJbBFUb4OtKLYxK6a8BzwbfvcOCEuzRT8acsBOpGpaA3gaq8rALIAOjddGZy3kXDbu37g7BtSEqpfNy68TIPAk3+Pkgi3WlE8dkVMMlPKZSQ1yE1cLyURJIOTg4Kr3ndn8k67PCjDu4lS7dpV4mgf7BBhU7MAGrw0DU8X6EB64nrsTUDc1mkrKJiqtQnDaJksPSEokh47fltIbTKQNRHgj1Ju1M1aoSdfwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "43",
+   "name": "Keyboard Control for Chrome™",
+   "options_page": "options.html",
+   "permissions": [ "storage", "unlimitedStorage", "tabs", "bookmarks", "history", "pageCapture", "clipboardWrite", "clipboardRead", "downloads", "sessions", "management", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "9.4",
+   "web_accessible_resources": [ "iframe.html", "img/picon.png" ]
+}

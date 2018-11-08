@@ -1,0 +1,73 @@
+{
+   "checksum": "326bd9629269aa53154700e42b1a2235",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13173582755360753",
+         "date_modified": "13179003731567731",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13173762077542889",
+               "id": "7",
+               "meta_info": {
+                  "last_visited_desktop": "13173762077544579"
+               },
+               "name": "global extensions are grayed out",
+               "type": "url",
+               "url": "https://unix.stackexchange.com/questions/353615/cant-uninstall-gnome-shell-extension"
+            }, {
+               "date_added": "13173587308175674",
+               "id": "5",
+               "meta_info": {
+                  "last_visited_desktop": "13173762112876108"
+               },
+               "name": "[SOLVED] Short lag between touchpad click/touch and action / Laptop Issues / Arch Linux Forums",
+               "type": "url",
+               "url": "https://bbs.archlinux.org/viewtopic.php?id=165077"
+            }, {
+               "date_added": "13173763318922268",
+               "id": "10",
+               "meta_info": {
+                  "last_visited_desktop": "13173763318922870"
+               },
+               "name": "blacklist psmouse",
+               "type": "url",
+               "url": "https://askubuntu.com/questions/462135/touchpad-issue-jumping-cursor-while-typing-ubuntu-14-04-syndaemon-dont-help/723954#723954"
+            } ],
+            "date_added": "13173762105929706",
+            "date_modified": "13174781401793559",
+            "id": "8",
+            "name": "xps_fix",
+            "type": "folder"
+         }, {
+            "date_added": "13174781401793559",
+            "id": "12",
+            "meta_info": {
+               "last_visited_desktop": "13181414979089192"
+            },
+            "name": "Extensions",
+            "type": "url",
+            "url": "chrome://extensions/"
+         } ],
+         "date_added": "13173582755360762",
+         "date_modified": "13174969893335629",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13173582755360763",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

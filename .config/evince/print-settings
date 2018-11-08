@@ -1,0 +1,40 @@
+[Print Settings]
+evince-print-setting-page-size=false
+output-file-format=pdf
+evince-print-setting-page-autorotate=true
+printer=Laser-PA1
+evince-print-setting-page-scale=1
+
+cups-job-sheets=none,none
+print-at-time=
+print-at=now
+cups-StpBrightness=None
+cups-Duplex=DuplexNoTumble
+cover-before=none
+cups-number-up=1
+cups-Resolution=301x300dpi
+duplex=horizontal
+cover-after=none
+cups-InputSlot=Standard
+cups-ColorModel=Gray
+cups-StpColorCorrection=None
+resolution-x=301
+resolution-y=300
+default-source=Standard
+cups-StpQuality=Standard
+resolution=301
+cups-StpContrast=None
+cups-job-priority=50
+cups-StpImageType=TextGraphics
+cups-StpiShrinkOutput=Shrink
+
+[Page Setup]
+PPDName=Letter
+DisplayName=US Letter
+Width=215.89999389648438
+Height=279.39999389648438
+MarginTop=6.3499999999999996
+MarginBottom=14.224
+MarginLeft=6.3499999999999996
+MarginRight=6.3499999999999996
+Orientation=portrait

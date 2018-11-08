@@ -1,0 +1,25 @@
+{
+   "author": "Jonathan Plantey",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "main.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Scroll tabs with alt + mouse wheel OR right click + mouse wheel.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgmhk1l7f5+uS+JhmFV9DyaBbl0yXk6RsiBxddPoRfBpT1m+7FbnzL63vfx8qhepfgf1L14c6PAqSFMi81E13yfAOveCgHOCsi5rVFdgP7FI/win4VBWbAyDUAjpRZRp5aeVxAyHXff/Rufdp66kV/r4Ub/WbUNFzO5lhjX7SfWKFJUeyjRc4xb2U/vggcWbfFR4e4KQCwj+ZhcoVJhp4Q8f4fGcUwPGtOlFlflsiSYTg2vdBTKkGQu/0aV7cowS4U0lVIVn5tMlHRzd7n2Ue9f4fC/3244rPd9BB565pJdJmHbbPBgAzE/RXwCkynYyF6KOa/sXOHMU8gnrI8am/IwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "26",
+   "name": "Tab Wheel Scroll",
+   "permissions": [ "\u003Call_urls>", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2"
+}

@@ -1,0 +1,9 @@
+2018/07/30-17:06:59.465 28253 Reusing MANIFEST /home/kessler/.config/opera/IndexedDB/https_community.logitech.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/07/30-17:07:00.549 28253 Current memtable full; waiting...
+2018/07/30-17:07:00.549 30914 Level-0 table #5: started
+2018/07/30-17:07:00.564 30914 Level-0 table #5: 1474381 bytes OK
+2018/07/30-17:07:00.567 30914 Delete type=0 #3
+2018/07/30-17:07:00.568 30914 Level-0 table #7: started
+2018/07/30-17:07:00.568 30914 Level-0 table #7: 0 bytes OK
+2018/07/30-17:07:00.571 30914 Delete type=0 #4
+2018/07/30-17:07:00.571 30914 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

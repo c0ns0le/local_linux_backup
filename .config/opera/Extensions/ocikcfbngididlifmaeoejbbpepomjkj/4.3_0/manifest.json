@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "script.js" ]
+   },
+   "description": "Opera extension to open many file formats online using Google Drive Viewer. Open online Office documents, PDF, ZIP, RAR, HTML, PSD etc.",
+   "developer": {
+      "name": "Arpit Kumar",
+      "url": "http://browsernative.com/extensions/"
+   },
+   "homepage_url": "http://browsernative.com/extensions/",
+   "icons": {
+      "128": "128.png",
+      "16": "16.png",
+      "48": "48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDiZGNCDnEdaT3WxxKocRtTbwDXBV5+DHlbsZbSacDPdKL4+l6pfcN3kPZuWri4CdxE/k3yAyRgwwetaiwveJic6jByacPjHuRCFzVsMZHHKkcEeb1dC1TZegwDHM/E8pws2zPkyCr6e6CtxCmYZr/xETldPbyTnJEOO1AZHG1QuwIDAQAB",
+   "manifest_version": 2,
+   "name": "gPDF",
+   "old_id": "https://addons.opera.com/extensions/details/gpdf/",
+   "permissions": [ "contextMenus", "tabs" ],
+   "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+   "version": "4.3"
+}

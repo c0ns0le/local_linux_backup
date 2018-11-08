@@ -1,0 +1,45 @@
+2018/11/05-14:30:26.490 13528 Reusing MANIFEST /home/kessler/.config/opera/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/11/05-14:30:26.490 13528 Recovering log #977
+2018/11/05-14:30:26.490 13528 Reusing old log /home/kessler/.config/opera/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000977.log 
+2018/11/05-14:30:46.312 28267 Level-0 table #989: started
+2018/11/05-14:30:46.333 28267 Level-0 table #989: 4334481 bytes OK
+2018/11/05-14:30:46.336 28267 Delete type=0 #977
+2018/11/05-14:31:49.122 28267 Level-0 table #991: started
+2018/11/05-14:31:49.170 28267 Level-0 table #991: 13526533 bytes OK
+2018/11/05-14:31:49.174 28267 Delete type=0 #988
+2018/11/05-14:31:50.244 28267 Level-0 table #993: started
+2018/11/05-14:31:50.295 28267 Level-0 table #993: 11536183 bytes OK
+2018/11/05-14:31:50.301 28267 Delete type=0 #990
+2018/11/05-14:33:05.337 28267 Level-0 table #995: started
+2018/11/05-14:33:05.379 28267 Level-0 table #995: 11538744 bytes OK
+2018/11/05-14:33:05.382 28267 Delete type=0 #992
+2018/11/05-14:33:05.385 28267 Compacting 4@0 + 0@1 files
+2018/11/05-14:33:05.448 28267 Generated table #996@0: 21 keys, 11578698 bytes
+2018/11/05-14:33:05.466 28267 Generated table #997@0: 8 keys, 1997161 bytes
+2018/11/05-14:33:05.469 28267 Generated table #998@0: 12 keys, 546 bytes
+2018/11/05-14:33:05.469 28267 Compacted 4@0 + 0@1 files => 13576405 bytes
+2018/11/05-14:33:05.472 28267 compacted to: files[ 0 3 4 0 0 0 0 ]
+2018/11/05-14:33:05.472 28267 Delete type=2 #989
+2018/11/05-14:33:05.473 28267 Delete type=2 #991
+2018/11/05-14:33:05.475 28267 Delete type=2 #993
+2018/11/05-14:33:05.477 28267 Delete type=2 #995
+2018/11/05-14:33:05.480 28267 Compacting 1@1 + 1@2 files
+2018/11/05-14:33:05.482 28267 Generated table #999@1: 76 keys, 2871 bytes
+2018/11/05-14:33:05.482 28267 Compacted 1@1 + 1@2 files => 2871 bytes
+2018/11/05-14:33:05.485 28267 compacted to: files[ 0 2 4 0 0 0 0 ]
+2018/11/05-14:33:05.485 28267 Delete type=2 #998
+2018/11/05-14:33:05.485 28267 Delete type=2 #983
+2018/11/05-14:33:05.485 28267 Expanding@1 1+2 (11578698+14953813 bytes) to 2+2 (13575859+14953813 bytes)
+2018/11/05-14:33:05.485 28267 Compacting 2@1 + 2@2 files
+2018/11/05-14:33:05.502 28267 Generated table #1000@1: 88 keys, 3480461 bytes
+2018/11/05-14:33:05.549 28267 Generated table #1001@1: 6 keys, 11579014 bytes
+2018/11/05-14:33:05.605 28267 Generated table #1002@1: 11 keys, 13469609 bytes
+2018/11/05-14:33:05.606 28267 Compacted 2@1 + 2@2 files => 28529084 bytes
+2018/11/05-14:33:05.608 28267 compacted to: files[ 0 0 5 0 0 0 0 ]
+2018/11/05-14:33:05.609 28267 Delete type=2 #984
+2018/11/05-14:33:05.609 28267 Delete type=2 #985
+2018/11/05-14:33:05.612 28267 Delete type=2 #996
+2018/11/05-14:33:05.614 28267 Delete type=2 #997
+2018/11/05-14:35:36.395 28267 Level-0 table #1004: started
+2018/11/05-14:35:36.433 28267 Level-0 table #1004: 11538736 bytes OK
+2018/11/05-14:35:36.437 28267 Delete type=0 #994

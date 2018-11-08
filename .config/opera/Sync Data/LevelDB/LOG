@@ -1,0 +1,6 @@
+2018/11/08-14:20:41.228 26810 Reusing MANIFEST /home/kessler/.config/opera/Sync Data/LevelDB/MANIFEST-000001
+2018/11/08-14:20:41.228 26810 Recovering log #71
+2018/11/08-14:20:41.245 26810 Reusing old log /home/kessler/.config/opera/Sync Data/LevelDB/000071.log 
+2018/11/08-14:55:30.338 32571 Level-0 table #75: started
+2018/11/08-14:55:30.355 32571 Level-0 table #75: 698247 bytes OK
+2018/11/08-14:55:30.360 32571 Delete type=0 #71

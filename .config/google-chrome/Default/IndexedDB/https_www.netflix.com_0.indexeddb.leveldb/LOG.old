@@ -1,0 +1,6 @@
+2018/10/23-23:35:42.886 32514 Reusing MANIFEST /home/kessler/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/10/23-23:35:42.886 32514 Recovering log #4
+2018/10/23-23:35:42.892 32514 Reusing old log /home/kessler/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000004.log 
+2018/10/24-00:38:58.035 5414 Level-0 table #8: started
+2018/10/24-00:38:58.053 5414 Level-0 table #8: 1672501 bytes OK
+2018/10/24-00:38:58.058 5414 Delete type=0 #4

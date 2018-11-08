@@ -1,0 +1,9 @@
+2018/07/01-20:56:45.133 12240 Reusing MANIFEST /home/kessler/.config/google-chrome/Default/IndexedDB/https_obsproject.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/07/01-20:57:13.265 12482 Current memtable full; waiting...
+2018/07/01-20:57:13.265 12591 Level-0 table #5: started
+2018/07/01-20:57:13.268 12591 Level-0 table #5: 442 bytes OK
+2018/07/01-20:57:13.271 12591 Delete type=0 #3
+2018/07/01-20:57:13.271 12591 Level-0 table #7: started
+2018/07/01-20:57:13.271 12591 Level-0 table #7: 0 bytes OK
+2018/07/01-20:57:13.274 12591 Delete type=0 #4
+2018/07/01-20:57:13.274 12591 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

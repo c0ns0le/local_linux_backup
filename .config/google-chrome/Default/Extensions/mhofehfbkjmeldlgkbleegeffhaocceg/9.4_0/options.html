@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+	<meta charset="UTF-8">
+    <title>options</title>
+    <link rel="stylesheet" href="css/options.css">
+    <script src="js/options.js"></script>
+</head>
+<!-- 
+/***********************************************************
+		Keyboard Control for Chrome™
+			Distributed under the BSD license:
+			http://opensource.org/licenses/BSD-3-Clause
+
+************************************************************
+		Copyright (c) 2015 Kunihiro Ando
+			senna5150ando@gmail.com
+        	2015-08-24T22:19:05Z
+***********************************************************/ 
+-->
+<body>
+	<div class="maincontainer">
+		<div class="headerclass" style="height:28px">
+			<div  style="float:left;float: left; color: deeppink; font-size: 20px;">
+				General
+				<label style="color:black;font-size:13px;padding-left:64px">On/Off = Esc+Shift</label>
+			</div>
+			<div class="controllbuttoncontainer" style="float:right">
+				<button type="button" class="btnclass" id="syncbutton">Get Sync Data</button>
+				<button type="button" class="btnclass" id="importbutton">Import Settings</button>
+				<button type="button" class="btnclass" id="exportbutton">Export Settings</button>
+				<button type="button" class="btnclass" id="restorebutton">Restore Default Settings</button>
+			</div>
+		</div>
+		<div class="keyconfigcontainer">
+			<div class="tleftcontainer"  style="padding-top:20px">
+				<div style="padding:0 0 0 60px">
+					<label class="allkeylabel">
+					<input type="checkbox" id="disableautofocus" checked>Disable Text Field Autofocus</label><br>
+				</div>
+				<div style="padding:24px 0 0 60px">
+					<label class="allkeylabel">Keyboard Input Timeout</label>
+					<input type="number" min="100" max="5000" step="1" value="700" id="inputtimeout" class="inputnumberclass">ms
+				</div>
+				<div style="padding:24px 0 0 60px">
+					<label class="allkeylabel">Scroll Step Size</label>
+					<input type="number" min="4" max="500" step="1" value="240" id="inputscrollstep" class="inputnumberclass">px
+				</div>
+				<div style="padding:24px 0 0 60px">
+					<label class="allkeylabel">
+					<input type="checkbox" id="smoothscrollchekbox">SmoothScroll</label><br>
+				</div>
+				<div style="padding:24px 0 0 60px">
+					<label class="allkeylabel">Command Box Position</label>
+					<select id="commandposselect" class="inputnumberclass">
+			            <option value="bl">Bottom Left</option>
+			            <option value="br">Bottom Right</option>
+			        </select>
+				</div>
+				<div style="padding:24px 0 0 60px;">
+					<label class="allkeylabel">Minimum Length for Incremental Search</label>
+					<input type="number" min="1" max="100" step="1" value="2" id="inputincsearch" class="inputnumberclass">
+				</div>
+				<div style="padding:24px 0 0 60px;">
+					<label class="allkeylabel"><input type="checkbox" id="searchignorecasecheckbox" checked>Ignore Case in Incremental Search</label>
+				</div>
+				<div style="padding:24px 0 0 60px;">
+					<label class="allkeylabel">Cursor speed (get text mode)</label>
+					<input type="number" min="1" max="10" step="1" value="2" id="inputgettextmvspeed" class="inputnumberclass">
+				</div>
+				<div style="padding:24px 0 0 60px">
+					<label class="allkeylabel">
+					<input type="checkbox" id="showclockcheckbox">Show Clock for Page(bottom-right)</label><br>
+				</div>
+			</div>
+			<div class="tmiddlecontainer" style="padding-top:20px">
+				<div style="padding:0 0 0 20px;">
+					<label class="allkeylabel">Hit-a-Hint Font Size</label>
+					<input type="number" min="8" max="30" step="1" value="12" id="inputhhfontsize" class="inputnumberclass">px
+				</div>
+				<div style="padding:24px 0 0 20px;">
+					<label class="allkeylabel">Hit-a-Hint Character</label>
+					<select id="hhcharacterselect" class="inputnumberclass">
+			            <option value="left">keyboard - Left Side</option>
+			            <option value="right">keyboard - Right Side</option>
+			            <option value="both">Both</option>
+			            <option value="number">Numbers</option>
+			            <option value="all">All</option>
+			        </select>
+				</div>
+				<div style="padding:24px 0 0 20px;">
+					<label class="allkeylabel">Follow link labeled next (text)</label><br>
+					<input id="linklabelednext" type="text" size="55" class="inputnumberclass" value="next,next »,next >>,next ≫,next >>,>,→,»,≫,>>"><br><br>
+					<label class="allkeylabel">Follow link labeled next (Element id or classname)</label><br>
+					<input id="linklabelednextid" type="text" size="55" class="inputnumberclass" value=""><br>
+				</div>
+				<div style="padding:24px 0 0 20px;">
+					<label class="allkeylabel">Follow link labeled previous (text)</label><br>
+					<input id="linklabeledpre" type="text" size="55" class="inputnumberclass" value="prev,previous,« prev,<< prev,<< previous,« previous,« back,back,<,←,«,≪,<<"><br><br>
+					<label class="allkeylabel">Follow link labeled previous (Element id or classname)</label><br>
+					<input id="linklabeledpreid" type="text" size="55" class="inputnumberclass" value=""><br><br>
+				</div>
+				<div style="padding:24px 0 0 20px">
+					<label class="allkeylabel">
+					<input type="checkbox" id="usinglazyload">Using lazy loading (Continuous Mode and MultiLink Opner)
+					</label>
+				</div>
+			</div>
+		</div>
+		<div style="clear:both;width: 100%;margin-bottom: 54px;"></div>
+		<div class="headerclass" style="color: deeppink; font-size: 20px;">Key Mapping
+			<button type="button" class="btnclass" id="defaultkeybutton">Default Keymap</button>
+			<button type="button" class="btnclass" id="qhitatinbutton" style="border: 2px solid deeppink">Hit a hint?</button>
+			<button type="button" class="btnclass" id="gettextbutton" style="border: 2px solid deeppink">Get text?</button>
+			<button type="button" class="btnclass" id="multilinkopnerbutton" style="border: 2px solid deeppink">Multi Link Opener?</button>
+			<button type="button" class="btnclass" id="searchenurllistbutton">Search Engine URL List</button>
+			<button type="button" class="btnclass" id="webservicellistbutton">Web Service URL List</button>
+		</div>
+		<div class="keyconfigcontainer">
+			<div class="leftcontainer">
+				<div class="h3class">Actions
+					<button type="button" class="btnclass2" id="addbutton">Add Action</button>
+				</div>
+				<div id="actioncontainer"></div>
+			</div>
+			<div class="rightcontainer">
+				<div class="h3class">Excluded URLs
+					<button type="button" class="btnclass2" id="addexbutton">Add URL</button>
+				</div>
+				<div id="excludcontainer"></div>
+			</div>
+		</div>
+	</div>
+	<div id="helpdiv">
+		<div class="helpcontainer">
+			<div class="helpheader">Default Keymap</div>
+			<div class="wleftcontainer">
+				<table>
+					<tbody id="keylefttable">
+					</tbody>
+				</table>
+			</div>
+			<div class="wmiddlecontainer">
+				<table>
+					<tbody id="keymiddletable">
+					</tbody>
+				</table>
+			</div>
+			<div class="wrightcontainer">
+				<table>
+					<tbody id="keyrighttable">
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div id="addbuttondiv">
+		<div id="addbuttoncontainer">
+			<div class="addbuttonheader">Actions</div>
+			<div class="addbuttoncontainer1">
+				<table>
+					<tbody id="addbuttontable1" class="addbuttontable1"></tbody>
+				</table>
+			</div>
+			<div class="addbuttoncontainer1">
+				<table>
+					<tbody id="addbuttontable2" class="addbuttontable1"></tbody>
+				</table>
+			</div>
+			<div class="addbuttoncontainer1">
+				<table>
+					<tbody id="addbuttontable3" class="addbuttontable1"></tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div id="addextbuttondiv">
+		<div id="addextbuttoncontainer">
+			<div class="addbuttonheader">Extensions</div>
+			<div class="addextcontainer1">
+				<table>
+					<tbody id="extensiontable1" class="addbuttontable1"></tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div id="qhitahintbuttondiv">
+		<div id="qhitahintbuttoncontainer">
+			<div style="color:blue;font-size:14px" id="cursorhelpcont">
+				Cursor<br>
+				h=left l=right j=down k=up i=click space=set 
+			</div>
+			<div style="color:blue;font-size:14px" id="multilinkhelpcont">
+				Cursor<br>
+				h=left l=right j=down k=up space=set c=capture s=smartlink enter=open
+			</div>
+			<video src="" style="margin-top:10%" loop="true" id="hitahintvideo"></video>
+		</div>
+	</div>
+	<div id="addscriptbuttondiv">
+		<div id="addscriptbuttoncontainer">
+			<img src="img/add.png" id="addscript" style="margin-left:5px">
+			<div id="scriptsourcellist">
+			</div>		
+		</div>
+	</div>
+	<dialog id="searcheurllistdialog">
+		<div class="urllistdialogcontainer">
+		</div>
+	</dialog>
+</body>
+</html>
+
+
+

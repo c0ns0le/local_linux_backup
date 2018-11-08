@@ -1,0 +1,9 @@
+2018/10/01-15:29:13.578 14004 Reusing MANIFEST /home/kessler/.config/opera/IndexedDB/https_support.digium.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/10/01-15:29:15.071 22146 Current memtable full; waiting...
+2018/10/01-15:29:15.071 19876 Level-0 table #5: started
+2018/10/01-15:29:15.081 19876 Level-0 table #5: 528368 bytes OK
+2018/10/01-15:29:15.084 19876 Delete type=0 #3
+2018/10/01-15:29:15.085 19876 Level-0 table #7: started
+2018/10/01-15:29:15.085 19876 Level-0 table #7: 0 bytes OK
+2018/10/01-15:29:15.087 19876 Delete type=0 #4
+2018/10/01-15:29:15.087 19876 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

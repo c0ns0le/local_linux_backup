@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<filteroptions>
+  <ruleset>
+    <rule enabled="true" grouping="all" source="incoming">
+      <title>saturday_filter</title>
+      <partset>
+        <part name="anyfield">
+          <value name="anyfield-type" type="option" value="contains"/>
+          <value name="anyfield" type="string" allow-empty="true">
+            <string>saturday</string>
+          </value>
+        </part>
+      </partset>
+    </rule>
+  </ruleset>
+</filteroptions>

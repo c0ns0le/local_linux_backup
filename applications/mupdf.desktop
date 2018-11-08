@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=MuPDF
+GenericName=mu_pdf
+Exec=/usr/local/bin/mupdf-x11 %f
+Terminal=false
+Icon=/home/kessler/pics/icons/mupdf-simplified.png
+Categories=Graphics; Viewer
+Type=Application
+

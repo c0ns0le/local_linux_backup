@@ -1,0 +1,19 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "Pandora player"
+   },
+   "description": "Pandora Player",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnpOELILy45Mwtlc0bTNbrjZjy2x66aC9knK2Gxmw5ceWpBy6LHf47cGoWB+MRLcpCODKpffsXK2dI1iLO1TzLwkKc97dvjYpo10S5ez1qNj4ldH1T5Q1ZfcWEZn/WAA7ig7ChATQ6UkrUduMqxThDyR1kvjq3QyRKYQAubK1h2HRKBHcLpgWOyv+MoopzAxmwLPQLwJU/fXyy6VOOk8E9RO7PWeHlr3wwRskRy1ytilOAD5V7WFWVoFjoFKibh/UaaZjvNKgNizZAisH/+DIJ8dWubJ1ci7rcNSpQQPTQOMxhsvmdjoA96n3D/qNaUZmBlsj73082R5ZSDXqzFbvLwIDAQAB",
+   "manifest_version": 2,
+   "name": "Pandora Player",
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}
