@@ -36790,3 +36790,11 @@ DBusException: org.freedesktop.DBus.Error.ServiceUnknown: The name org.autokey.S
 2018-11-08 15:39:00,573 INFO - service - Matched hotkey phrase/script with prompt=False
 2018-11-08 15:39:01,128 INFO - service - Matched hotkey phrase/script with prompt=False
 2018-11-08 15:39:01,788 INFO - service - Matched hotkey phrase/script with prompt=False
+2018-11-08 15:40:46,419 INFO - service - Matched hotkey phrase/script with prompt=False
+2018-11-08 15:40:50,213 INFO - service - Matched hotkey phrase/script with prompt=False
+2018-11-08 15:40:53,988 INFO - service - Matched hotkey phrase/script with prompt=False
+2018-11-08 15:40:54,440 INFO - service - Matched hotkey phrase/script with prompt=False
+2018-11-08 15:41:19,203 INFO - service - Matched hotkey phrase/script with prompt=False
+2018-11-08 15:41:19,936 INFO - service - Matched hotkey phrase/script with prompt=False
+2018-11-08 15:44:45,918 INFO - service - Matched hotkey phrase/script with prompt=False
+2018-11-08 15:44:46,248 INFO - service - Matched hotkey phrase/script with prompt=False

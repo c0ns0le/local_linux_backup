@@ -2,6 +2,7 @@
 
 timer=${2:-.2}
 # this commment is new
+#  so's this one!
 
 case "$1" in 
 	w) 
